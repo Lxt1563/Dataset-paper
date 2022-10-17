@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: PaperForReview - ¸±±¾.aux
+The style file: ieee_fullname.bst
+Database file #1: egbib.bib
+Warning--can't use both volume and number fields in bhattacharya2020step
+You've used 37 entries,
+            2120 wiz_defined-function locations,
+            815 strings with 12300 characters,
+and the built_in function-call counts, 14859 in all, are:
+= -- 1443
+> -- 878
+< -- 7
++ -- 352
+- -- 308
+* -- 1197
+:= -- 2492
+add.period$ -- 115
+call.type$ -- 37
+change.case$ -- 265
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 464
+empty$ -- 1018
+format.name$ -- 308
+if$ -- 3010
+int.to.chr$ -- 0
+int.to.str$ -- 37
+missing$ -- 34
+newline$ -- 188
+num.names$ -- 74
+pop$ -- 237
+preamble$ -- 1
+purify$ -- 227
+quote$ -- 0
+skip$ -- 331
+stack$ -- 0
+substring$ -- 958
+swap$ -- 96
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 148
+warning$ -- 1
+while$ -- 139
+width$ -- 39
+write$ -- 410
+(There was 1 warning)

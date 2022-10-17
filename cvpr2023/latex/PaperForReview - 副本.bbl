@@ -1,0 +1,225 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{Alpher02}
+FirstName Alpher.
+\newblock Frobnication.
+\newblock {\em IEEE TPAMI}, 12(1):234--778, 2002.
+
+\bibitem{Alpher03}
+FirstName Alpher and FirstName Fotheringham-Smythe.
+\newblock Frobnication revisited.
+\newblock {\em Journal of Foo}, 13(1):234--778, 2003.
+
+\bibitem{Alpher04}
+FirstName Alpher, FirstName Fotheringham-Smythe, and FirstName Gamow.
+\newblock Can a machine frobnicate?
+\newblock {\em Journal of Foo}, 14(1):234--778, 2004.
+
+\bibitem{Alpher05}
+FirstName Alpher and FirstName Gamow.
+\newblock Can a computer frobnicate?
+\newblock In {\em CVPR}, pages 234--778, 2005.
+
+\bibitem{baker2016gait}
+Richard Baker, Alberto Esquenazi, Maria~Grazia Benedetti, and Kaat Desloovere.
+\newblock Gait analysis: clinical facts.
+\newblock {\em Eur. J. Phys. Rehabil. Med}, 52(4):560--574, 2016.
+
+\bibitem{bergfeld2018treatment}
+Isidoor~O Bergfeld, Mariska Mantione, Martijn Figee, P~Richard Schuurman, Anja
+  Lok, and Damiaan Denys.
+\newblock Treatment-resistant depression and suicidality.
+\newblock {\em Journal of affective disorders}, 235:362--367, 2018.
+
+\bibitem{bhattacharya2020step}
+Uttaran Bhattacharya, Trisha Mittal, Rohan Chandra, Tanmay Randhavane, Aniket
+  Bera, and Dinesh Manocha.
+\newblock Step: Spatial temporal graph convolutional networks for emotion
+  perception from gaits.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~34, pages 1342--1350, 2020.
+
+\bibitem{bhugra2004globalisation}
+Dinesh Bhugra and Anastasia Mastrogianni.
+\newblock Globalisation and mental disorders: overview with relation to
+  depression.
+\newblock {\em The British Journal of Psychiatry}, 184(1):10--20, 2004.
+
+\bibitem{bovi2011multiple}
+Gabriele Bovi, Marco Rabuffetti, Paolo Mazzoleni, and Maurizio Ferrarin.
+\newblock A multiple-task gait analysis approach: kinematic, kinetic and emg
+  reference data for healthy young and adult subjects.
+\newblock {\em Gait \& posture}, 33(1):6--13, 2011.
+
+\bibitem{eisenberg2007prevalence}
+Daniel Eisenberg, Sarah~E Gollust, Ezra Golberstein, and Jennifer~L Hefner.
+\newblock Prevalence and correlates of depression, anxiety, and suicidality
+  among university students.
+\newblock {\em American journal of orthopsychiatry}, 77(4):534--542, 2007.
+
+\bibitem{fang2019depression}
+Jing Fang, Tao Wang, Cancheng Li, Xiping Hu, Edith Ngai, Boon-Chong Seet, Jun
+  Cheng, Yi Guo, and Xin Jiang.
+\newblock Depression prevalence in postgraduate students and its association
+  with gait abnormality.
+\newblock {\em IEEE Access}, 7:174425--174437, 2019.
+
+\bibitem{faust1988expert}
+David Faust and Jay Ziskin.
+\newblock The expert witness in psychology and psychiatry.
+\newblock {\em Science}, 241(4861):31--35, 1988.
+
+\bibitem{gross2012effort}
+M~Melissa Gross, Elizabeth~A Crane, and Barbara~L Fredrickson.
+\newblock Effort-shape and kinematic assessment of bodily expression of emotion
+  during gait.
+\newblock {\em Human movement science}, 31(1):202--221, 2012.
+
+\bibitem{hemming2019alexithymia}
+Laura Hemming, Gillian Haddock, Jennifer Shaw, and Daniel Pratt.
+\newblock Alexithymia and its associations with depression, suicidality, and
+  aggression: an overview of the literature.
+\newblock {\em Frontiers in psychiatry}, 10:203, 2019.
+
+\bibitem{hicheur2013perception}
+Halim Hicheur, Hideki Kadone, Julie Grezes, and Alain Berthoz.
+\newblock Perception of emotional gaits using avatar animation of real and
+  artificially synthesized gaits.
+\newblock In {\em 2013 Humaine Association Conference on Affective Computing
+  and Intelligent Interaction}, pages 460--466. IEEE, 2013.
+
+\bibitem{janssen2008recognition}
+Daniel Janssen, Wolfgang~I Sch{\"o}llhorn, Jessica Lubienetzki, Karina
+  F{\"o}lling, Henrike Kokenge, and Keith Davids.
+\newblock Recognition of emotions in gait patterns by means of artificial
+  neural nets.
+\newblock {\em Journal of Nonverbal Behavior}, 32(2):79--92, 2008.
+
+\bibitem{jing2019different}
+Chunke Jing, Xiaoqian Liu, Nan Zhao, and Tingshao Zhu.
+\newblock Different performances of speech and natural gait in identifying
+  anxiety and depression.
+\newblock In {\em International Conference on Human Centered Computing}, pages
+  200--210. Springer, 2019.
+
+\bibitem{kang2016effect}
+Gu~Eon Kang and M~Melissa Gross.
+\newblock The effect of emotion on movement smoothness during gait in healthy
+  young adults.
+\newblock {\em Journal of biomechanics}, 49(16):4022--4027, 2016.
+
+\bibitem{Authors14}
+FirstName LastName.
+\newblock The frobnicatable foo filter, 2014.
+\newblock Face and Gesture submission ID 324. Supplied as supplemental material
+  {\tt fg324.pdf}.
+
+\bibitem{Authors14b}
+FirstName LastName.
+\newblock Frobnication tutorial, 2014.
+\newblock Supplied as supplemental material {\tt tr.pdf}.
+
+\bibitem{lemke2000spatiotemporal}
+Matthias~R Lemke, Thomas Wendorff, Brigitt Mieth, Katharina Buhl, and Martin
+  Linnemann.
+\newblock Spatiotemporal gait patterns during over ground locomotion in major
+  depression compared with healthy controls.
+\newblock {\em Journal of psychiatric research}, 34(4-5):277--283, 2000.
+
+\bibitem{li2016identifying}
+Baobin Li, Changye Zhu, Shun Li, and Tingshao Zhu.
+\newblock Identifying emotions from non-contact gaits information based on
+  microsoft kinects.
+\newblock {\em IEEE Transactions on Affective Computing}, 9(4):585--591, 2016.
+
+\bibitem{li2016emotion}
+Shun Li, Liqing Cui, Changye Zhu, Baobin Li, Nan Zhao, and Tingshao Zhu.
+\newblock Emotion recognition using kinect motion capture data of human gaits.
+\newblock {\em PeerJ}, 4:e2364, 2016.
+
+\bibitem{lu2021new}
+Haifeng Lu, Wei Shao, Edith Ngai, Xiping Hu, and Bin Hu.
+\newblock A new skeletal representation based on gait for depression detection.
+\newblock In {\em 2020 IEEE International Conference on E-health Networking,
+  Application \& Services (HEALTHCOM)}, pages 1--6. IEEE, 2021.
+
+\bibitem{michalak2009embodiment}
+Johannes Michalak, Nikolaus~F Troje, Julia Fischer, Patrick Vollmar, Thomas
+  Heidenreich, and Dietmar Schulte.
+\newblock Embodiment of sadness and depression—gait patterns associated with
+  dysphoric mood.
+\newblock {\em Psychosomatic medicine}, 71(5):580--587, 2009.
+
+\bibitem{montepare1987identification}
+Joann~M Montepare, Sabra~B Goldstein, and Annmarie Clausen.
+\newblock The identification of emotions from gait information.
+\newblock {\em Journal of Nonverbal Behavior}, 11(1):33--42, 1987.
+
+\bibitem{world2017depression}
+World~Health Organization et~al.
+\newblock Depression and other common mental disorders: global health
+  estimates.
+\newblock Technical report, World Health Organization, 2017.
+
+\bibitem{radovanovic2014gait}
+Sa{\v{s}}a Radovanovi{\'c}, Milica Jovi{\v{c}}i{\'c}, Nadja~P Mari{\'c}, and
+  Vladimir Kosti{\'c}.
+\newblock Gait characteristics in patients with major depression performing
+  cognitive and motor tasks while walking.
+\newblock {\em Psychiatry research}, 217(1-2):39--46, 2014.
+
+\bibitem{rao2008understanding}
+TS~Sathyanarayana Rao, MR Asha, BN Ramesh, and KS~Jagannatha Rao.
+\newblock Understanding nutrition, depression and mental illnesses.
+\newblock {\em Indian journal of psychiatry}, 50(2):77, 2008.
+
+\bibitem{roether2009critical}
+Claire~L Roether, Lars Omlor, Andrea Christensen, and Martin~A Giese.
+\newblock Critical features for the perception of emotion from gait.
+\newblock {\em Journal of vision}, 9(6):15--15, 2009.
+
+\bibitem{sloman1982gait}
+Leon Sloman, Mavis Berridge, S Homatidis, D Hunter, and T Duck.
+\newblock Gait patterns of depressed patients and normal subjects.
+\newblock {\em The American journal of psychiatry}, 1982.
+
+\bibitem{venture2014recognizing}
+Gentiane Venture, Hideki Kadone, Tianxiang Zhang, Julie Gr{\`e}zes, Alain
+  Berthoz, and Halim Hicheur.
+\newblock Recognizing emotions conveyed by human gait.
+\newblock {\em International Journal of Social Robotics}, 6(4):621--632, 2014.
+
+\bibitem{wang2020gait}
+Tao Wang, Cancheng Li, Chunyun Wu, Chengjian Zhao, Jieqiong Sun, Hong Peng,
+  Xiping Hu, and Bin Hu.
+\newblock A gait assessment framework for depression detection using kinect
+  sensors.
+\newblock {\em IEEE Sensors Journal}, 21(3):3260--3270, 2020.
+
+\bibitem{wang2021detecting}
+Yameng Wang, Jingying Wang, Xiaoqian Liu, and Tingshao Zhu.
+\newblock Detecting depression through gait data: examining the contribution of
+  gait features in recognizing depression.
+\newblock {\em Frontiers in psychiatry}, 12:661213, 2021.
+
+\bibitem{yang2022data}
+Jingjing Yang, Haifeng Lu, Chengming Li, Xiping Hu, and Bin Hu.
+\newblock Data augmentation for depression detection using skeleton-based gait
+  information.
+\newblock {\em arXiv preprint arXiv:2201.01115}, 2022.
+
+\bibitem{yuan2018depression}
+YaHui Yuan, Baobin Li, Ning Wang, Qing Ye, Yan Liu, and Tingshao Zhu.
+\newblock Depression identification from gait spectrum features based on
+  hilbert-huang transform.
+\newblock In {\em International Conference on Human Centered Computing}, pages
+  503--515. Springer, 2018.
+
+\bibitem{zhao2019see}
+Nan Zhao, Zhan Zhang, Yameng Wang, Jingying Wang, Baobin Li, Tingshao Zhu, and
+  Yuanyuan Xiang.
+\newblock See your mental state from your walk: Recognizing anxiety and
+  depression through kinect-recorded gait data.
+\newblock {\em PLoS one}, 14(5):e0216591, 2019.
+
+\end{thebibliography}
