@@ -46,7 +46,7 @@
 
 %%%%%%%%% TITLE - PLEASE UPDATE
 %\title{\LaTeX\ Author Guidelines for \confName~Proceedings}
-\title{D-gait: A Dataset for Auxiliary Depression Diagnosis based on Gait}
+\title{D-Gait: A Dataset for Auxiliary Depression Diagnosis based on Gait}
 
 \author{First Author\\
 Institution1\\
@@ -197,6 +197,87 @@ Instead, employing an end-to-end deep architecture to push the original signal i
 The benefit of end-to-end deep architecture is that it does not require researchers to possess a priori knowledge, and the deep network can learn better features and produce more accurate classification results.
 However, there are drawbacks to end-to-end deep systems, such as limited support for large-scale data.
 
+\section{D-Gait Dataset}
+\begin{figure}[t]
+  \centering
+  %\fbox{\rule{0pt}{2in} \rule{0.9\linewidth}{0pt}}
+   \includegraphics[width=1.0\linewidth]{figures/pre-processing02.jpg}
+
+   \caption{ Pre-processing of D-Gait data generates silhouette images.
+   }
+   \label{pre-processing}
+\end{figure}
+\subsection{Data Pre-processing}
+
+After obtaining the raw gait video data, we further pre-process them to prepare the required input data for  deep learning-based depression risk detection methods.
+As shown in Fig~\ref{pre-processing}, we first crop the videos with assistance of a multi-object tracking algorithm such that each cropped video clip contains only one walking subject of interests and one gait sequence refers to the video clip of a subject when he/she walks along a straight line towards one direction.
+Afterwards,  a real-time instance segmentation algorithm, to obtain the human silhouettes, and then normalize and align the silhouette data.
+
+
+
+\subsection{Data cleaning}
+
+The three primary stages of data cleaning are noise removal, frame filtering, and Forward and backward sequence splitting. Below, we'll introduce them one at a time.
+(1) Noise removal: During data collection, the camera takes pictures of places that are not being used for data acquisition, such as irrelevant people who are not the subjects.
+They should be deleted because they may damage the quality of the data.
+(2) Frame filtering: When subjects enter and exit the data collection area, there will be duplicate information, such as changing clothes, as well as an action of turning when subjects reach the end point. Such information is also unwanted and they should be removed.
+(3) Forward and backward sequence splitting: During data acquisition, the subjects walk a round trip in the effective area of data acquisition, so there are two image sequences facing the camera or back to the camera, which need to be split and processed.
+It takes 10 researchers working for 2 weeks for this tremendous work, and we hope the proposed D-Gait benchmark would facilitate future research of gait depression risk detection.
+Note that for privacy concerns, we will first release the pre-processed gait data to the public.
+
+
+\subsection{Annotations}
+
+To assess the degree of depression of the subjects, we used three internationally used scales, Self-Rating Depression Scale (SDS), Patient Health Questionnaire-9 (PHQ-9), and Generalized Anxiexy Disorde-7 (GAD-7). The subjects were divided into two groups according to their scores: the non-depressed group and the scored depressed group. In order to ensure the validity of the experimental data, we summarized the classification criteria of the scales used in the relevant literature and set the inclusion criteria of the enrolled subjects by combining the specific situation of our data, as described in Table~\ref{scale}.
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\caption{The scoring criteria of the selected subjects}
+\label{scale}
+\setlength{\tabcolsep}{3.5mm}{
+\begin{tabular}{@{}c|c|c|c@{}}
+\toprule
+\textbf{Paper} & \textbf{PHQ-9} & \textbf{SDS} & \textbf{GAD-7} \\ \midrule
+Fang~\cite{fang2019depression}  & $score \geq 5$  & $score \geq 50$  & $score \geq 5$             \\
+Yang~\cite{yang2022data}        & $score \geq 10$ & $score \geq 60$ & -              \\
+Lu~\cite{lu2021new}             & $score \geq 10$ & $score \geq 60$ & -              \\
+Wang~\cite{wang2020gait}        & $score \geq 10$ & $score \geq 60$ & -              \\
+Daly~\cite{daly2021depression}  & $score \geq 10$ & -      & -              \\
+Jing~\cite{jing2019different}   & $score \geq 10$ & -                  & $score \geq 10$       \\
+Zhao~\cite{zhao2019see}         & $score \geq 10$ & -      & $score \geq 10$       \\
+Choi~\cite{choi2020depression}  & $score \geq 10$ & -      & $score \geq 10$       \\
+Hyland~\cite{hyland2020anxiety} & $score \geq 10$ & -      & $score \geq 10$       \\
+\textbf{Our}  & $score \geq 10$ & $score \geq 40$ & $score \geq 10$ \\ \bottomrule
+\end{tabular}}
+\end{table}
+
+The non-depressed group (PHQ-9: mean = 0.92, SD = 1.26; SDS: mean = 6.4, SD = 2.14; GAD-7: mean=0.51, SD=0.95) consisted of 200 individuals
+(M: 122, F: 78), whose scores were in the healthy range of both the PHQ-9, SDS, and GAD-7.
+The scored-depressed group (PHQ-9: mean = 11.52, SD = 3.24; SDS: mean = 30.52, SD = 6.53; GAD-7: mean=9.40, SD=3.12) contained 200 (M: 92, F: 108) participants.
+%The criteria for recruiting the scored-depressed group were that the candidates must be assessed as depression in both the PHQ-9 or SDS.
+Candidates for the scored-depressed group had to score depressed on the PHQ-9, SDS, or GAD-7 in order to be included.
+In addition, the score had to reach a moderate level in at least one of them ( PHQ-9 score $\geq$ 10 or SDS score $\geq$ 40 or GAD-7 score $\geq$ 10).
+Basic information about the subjects is provided in Table~\ref{score}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\caption{Basic information of the scored-depressed and non-depressed groups.}
+\label{score}
+\setlength{\tabcolsep}{1mm}{
+\begin{tabular}{@{}c|cc@{}}
+\toprule
+\textbf{ } & \textbf{Scored-depressed} & \textbf{Non-depressed} \\ \midrule
+Cases              & 200                       & 200                    \\
+Sex (M:F)           & 92:108                    & 122:78                 \\
+PHQ-9 ($means \pm SD$) & $11.52 \pm 3.24$          & $0.92 \pm 1.26$              \\
+SDS ($means \pm SD$)   & $30.52 \pm 6.53$          & $6.40 \pm 2.14$              \\
+GAD-7 ($means \pm SD$) & $9.40 \pm 3.12$           & $0.51 \pm 0.95$              \\ \bottomrule
+\end{tabular}}
+\end{table}
 
 
 
