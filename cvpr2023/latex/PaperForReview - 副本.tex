@@ -207,6 +207,61 @@ However, there are drawbacks to end-to-end deep systems, such as limited support
    }
    \label{pre-processing}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% lxt start
+Our D-gait dataset introduces a new challenging benchmark for gait-based depression detection.
+This section presents the key challenges of data collection and details of our data structure and statistical characteristics. Moreover, we summarize the preprocessing of our dataset for further studies.
+
+\subsection{Key Challenge}
+building such a complex and large-scale dataset brings a series of unprecedented challenges, including:
+1) How to collect data?
+The gait data in traditional depression detection are usually collected by ground sensors or Kinect devices, which obtain the gait information of subjects, such as simple features (stride length, gait speed, etc.) or human joint coordinates.
+These methods require subjects to wear professional equipment, and cannot collect image information about gait.
+Instead, we collect video data from multiple cameras of subject's walking, and process it to get the silhouette and skeleton information.
+2) How to define depressed subjects?
+The traditional diagnosis of depression basically needs to be tested by scale, then followed by physical examination and professional diagnosis.
+The data of patients with depression may have privacy problems and are difficult to collect.
+As mentioned, before collecting the gait data, we tested the subjects with scale, and divided the depressed and normal subjects according to the scores.
+At the same time, we take three commonly used scales to ensure reliability of the results, and divided the depressed and normal subjects according to their comprehensive scores.
+3) How to ensure data quality?
+When collecting data in the real scene, it contains a lot of noises due to the complexity of the background.
+In order to solve this problem, we use the green screen to build experimental scenes around the collection area to minimize background interference.
+
+\subsection{Dataset Construction}
+Data preparation:
+our procedure for data collection takes the following steps.
+Firstly, we collect the basic information (name, age, sex...) of the subjects and the scores of the three depression scales.
+Then, we collect gait data of subjects through cameras, and process the data to obtain silhouette image.
+Finally, through the analysis of the scale results, we develop a label classification standard and divide 400 subjects into 200 depression group and 200 normal control group.
+
+Data composition:
+our dataset collects gait data of teenagers.
+All subjects know the purpose of data collection and allow us to use their data for research.
+The age range of subjects is 17-25 years old, and the male to female ratio is about 5:5.
+During the acquisition process, each subject is required to walk back and forth along the fixed route so that the camera can capture their gait data.
+
+Next, we introduce in detail the gait data acquisition process.
+The horizontal distance of the walking route in D-gait is about 6 meters.
+Each subject changed their clothes twice and walked along for three times.
+During the acquisition, 8 groups of cameras were distributed on one side and each group of cameras was 2.5 and 3.5 meters high respectively.
+During the collection, each subject needs to walk back and forth.
+Through the walking route, collect the gait sequence of each subject under different angles and clothes.
+
+\begin{figure}[t]
+  \centering
+  %\fbox{\rule{0pt}{2in} \rule{0.9\linewidth}{0pt}}
+   \includegraphics[width=1.0\linewidth]{figures/Data format.png}
+
+   \caption{Data format.
+   }
+   \label{Data format}
+\end{figure}
+
+Data format:
+D-gait contains gait data of different types of clothes and multiple views, among which, the clothing type includes a backpack and two sets of normal clothes.
+The shooting angle includes 16 angles in the range of 0-180° and the front and back of each angle as shown in Fig~\ref{Data format}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% lxt end
 \subsection{Data Pre-processing}
 
 After obtaining the raw gait video data, we further pre-process them to prepare the required input data for  deep learning-based depression risk detection methods.
@@ -273,6 +328,7 @@ Basic information about the subjects is provided in Table~\ref{score}.
 \textbf{ } & \textbf{Scored-depressed} & \textbf{Non-depressed} \\ \midrule
 Cases              & 200                       & 200                    \\
 Sex (M:F)           & 92:108                    & 122:78                 \\
+Age ($M\pm SD$)        & $19\pm 1.032 $          & $ 20\pm 1.130  $      \\
 PHQ-9 ($means \pm SD$) & $11.52 \pm 3.24$          & $0.92 \pm 1.26$              \\
 SDS ($means \pm SD$)   & $30.52 \pm 6.53$          & $6.40 \pm 2.14$              \\
 GAD-7 ($means \pm SD$) & $9.40 \pm 3.12$           & $0.51 \pm 0.95$              \\ \bottomrule
